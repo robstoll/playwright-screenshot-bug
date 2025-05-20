@@ -12,7 +12,7 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    testImplementation("com.microsoft.playwright:playwright:1.49.0")
+    testImplementation("com.microsoft.playwright:playwright:1.52.0")
 }
 
 tasks.test {
